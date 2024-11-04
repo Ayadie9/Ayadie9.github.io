@@ -10,14 +10,35 @@ header {
     padding: 1rem;
 }
 
+h1 {
+    margin: 0;
+}
+
+.navbar {
+    margin-top: 10px;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #444;
+    border-radius: 5px;
 }
 
 .google-map {
@@ -35,6 +56,10 @@ nav ul li {
     padding: 10px;
 }
 
+.wanna-touch h3 {
+    margin-top: 0;
+}
+
 .footer {
     text-align: center;
     padding: 10px;
@@ -45,9 +70,20 @@ nav ul li {
 .social-buttons {
     list-style: none;
     padding: 0;
+    margin: 10px 0 0;
 }
 
 .social-buttons li {
     display: inline;
     margin-right: 10px;
+}
+
+.social-buttons a {
+    color: white;
+    text-decoration: none;
+}
+
+.bottom-line {
+    margin-top: 10px;
+    font-size: 0.9em;
 }
