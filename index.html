@@ -3,63 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>Mon Portfolio</title>
 </head>
 <body>
     <header>
-        <h1>Bonjour, je suis [Ton Nom]</h1>
-        <p>Développeuse web en herbe</p>
+        <h1>Jonathan Pruvost</h1>
+        <nav>
+            <ul>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#about">À propos</a></li>
-            <li><a href="#projects">Projets</a></li>
-            <li><a href="#skills">Compétences</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <section id="about">
-        <h2>À propos de moi</h2>
-        <p>Je suis étudiante en développement web passionnée par la création d'expériences utilisateur exceptionnelles.</p>
-    </section>
-
-    <section id="projects">
-        <h2>Mes Projets</h2>
-        <div class="project">
-            <h3>Projet 1</h3>
-            <p>Description du projet 1, les technologies utilisées, etc.</p>
-            <a href="#">Voir le projet</a>
-        </div>
-        <div class="project">
-            <h3>Projet 2</h3>
-            <p>Description du projet 2, les technologies utilisées, etc.</p>
-            <a href="#">Voir le projet</a>
-        </div>
-        <!-- Ajoute plus de projets ici -->
-    </section>
-
-    <section id="skills">
-        <h2>Compétences</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <!-- Ajoute plus de compétences ici -->
-        </ul>
-    </section>
 
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Vous pouvez me contacter par email à : <a href="mailto:tonemail@example.com">tonemail@example.com</a></p>
-        <p>Retrouvez-moi sur <a href="#">LinkedIn</a> et <a href="#">GitHub</a>.</p>
+        <div class="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=..." frameborder="0"></iframe>
+            <div class="wanna-touch">
+                <h3>Mon adresse</h3>
+                <ul>
+                    <li><i class="fa fa-map-marker"></i> 77170 Brie-Comte-Robert</li>
+                    <li><i class="fa fa-location-arrow"></i> Paris Île-de-France</li>
+                    <li><i class="fa fa-phone"></i> 06 95 60 59 53</li>
+                </ul>
+                <span class="view-location">VOIR LOCALISATION</span>
+                <span class="hide-location">MASQUER LOCALISATION</span>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 [Ton Nom]. Tous droits réservés.</p>
+        <div class="main-footer">
+            <p>Contact: jonathan.pruvost@live.fr</p>
+            <ul class="social-buttons">
+                <li><a href="https://twitter.com/_jpruvost"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/jonathanpruvost/"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+            <div class="bottom-line">
+                Copyright All Rights Reserved 2018 <a href="#">Jonathan Pruvost</a>
+            </div>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
